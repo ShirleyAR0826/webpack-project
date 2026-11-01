@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "start": "node init && webpack-dev-server --config ./webpack.config.js --mode development",
     "lint": "eslint --fix --ext .js,.jsx ."
   },
   "babel": {
     "presets": [
-        "@babel/preset-env",
-        "@babel/preset-react"
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   },
   "keywords": [],
